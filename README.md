@@ -36,7 +36,7 @@
 ![](captures/cap25.PNG)
 ### 9- Ajoutez une section Projects générée dynamiquement en JavaScript à partir d'un tableau d'objets.
 ![](captures/cap26.PNG)
-## II. Dockerisation initiale
+## III. Dockerisation initiale
 ### 10- Créez un Dockerfile pour servir votre DevSecOps Portfolio avec Nginx.
 ![](captures/cap27.PNG)
 ![](captures/cap28.PNG)
