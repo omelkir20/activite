@@ -1,10 +1,10 @@
 # Activité 1
 ## I. Mise en place initiale
 ### 1- Installez Ubuntu server 26.04 et configurez l'accès distant sécurisé via SSH.
- ![](capures/cap1.PNG)
- ![](capures/cap2.PNG)
- ![](capures/cap3.PNG)
- ![](capures/cap4.PNG)
+ ![](caputres/cap1.PNG)
+ ![](caputres/cap2.PNG)
+ ![](caputres/cap3.PNG)
+ ![](caputres/cap4.PNG)
 ### 2- Testez l'accès SSH à la VM à partir la machine physique.  
 
 
