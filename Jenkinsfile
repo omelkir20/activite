@@ -17,7 +17,7 @@ pipeline {
             steps {
                 dir('devsecops-portfolio/portfolio-next') {
                     sh 'node -v && npm -v'
-                    sh 'npm ci'
+                    sh 'npm ci --fetch-retries=5 --fetch-timeout=120000'
                 }
             }
         }
