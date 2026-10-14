@@ -1,4 +1,3 @@
-
 pipeline {
     agent any
 
@@ -15,16 +14,16 @@ pipeline {
 
         stage('Install dependencies') {
             steps {
-                dir('devsecops-portfolio/portfolio-next') {
+                dir('portfolio-next') {
                     sh 'node -v && npm -v'
-                    sh 'npm ci --fetch-retries=5 --fetch-timeout=120000'
+                    sh 'npm ci'
                 }
             }
         }
 
         stage('Build') {
             steps {
-                dir('devsecops-portfolio/portfolio-next') {
+                dir('portfolio-next') {
                     sh 'npm run build'
                 }
             }
@@ -32,11 +31,7 @@ pipeline {
     }
 
     post {
-        success {
-            echo 'Build réussi'
-        }
-        failure {
-            echo 'Build échoué'
-        }
+        success { echo 'Build réussi' }
+        failure { echo 'Build échoué' }
     }
 }
