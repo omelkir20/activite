@@ -14,16 +14,16 @@ pipeline {
 
         stage('Install dependencies') {
             steps {
-                dir('portfolio-next') {
+                dir('devsecops-portfolio/portfolio-next') {
                     sh 'node -v && npm -v'
-                    sh 'npm ci'
+                    sh 'npm ci --fetch-retries=5 --fetch-timeout=120000'
                 }
             }
         }
 
         stage('Build') {
             steps {
-                dir('portfolio-next') {
+                dir('devsecops-portfolio/portfolio-next') {
                     sh 'npm run build'
                 }
             }
