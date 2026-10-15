@@ -1,4 +1,4 @@
-# Activité 1
+# Activité 1+2
 ## I. Mise en place initiale
 ### 1- Installez Ubuntu server 26.04 et configurez l'accès distant sécurisé via SSH.
  ![](captures/cap1.PNG)
@@ -65,3 +65,31 @@
 ![](captures/cap45.PNG)
 ![](captures/cap43.PNG)
 ![](captures/cap44.PNG)
+## V. Migration du Portfolio vers Next.js
+### 18- Créez une nouvelle version du DevSecOps Portfolio avec Next.js. Conservez au minimum les mêmes sections que dans la version HTML/CSS/JavaScript.
+![](captures/act2.1.PNG)
+![](captures/act2.2.PNG)
+![](captures/act2.3.PNG)
+![](captures/act2.4.PNG)
+### 19- Transformez les principales parties du Portfolio en composants réutilisables : Header, About, Skills, Projects, Contact, Footer
+![](captures/act2.5.PNG)
+### 20- Déplacez les informations des projets et compétences dans des fichiers de données ou objets JavaScript séparés.
+![](captures/act2.6.PNG)
+### 21- Ajoutez une page dédiée à l'affichage d'un projet du Portfolio :
+![](captures/act2.7.PNG)
+![](captures/act2.8.PNG)
+## VI. Premier pipeline Jenkins
+### 22- Créez un premier Jenkins Pipeline capable de récupérer automatiquement le dépôt GitHub du DevSecOps Portfolio.
+![](captures/act2.9.PNG)
+![](captures/act2.10.PNG)
+![](captures/act2.11.PNG)
+![](captures/act2.13.PNG)
+![](captures/act2.12.PNG)
+![](captures/act2.15.PNG)
+### 23- Ajoutez au pipeline une étape permettant d'installer les dépendances du projet Next.js.
+### 24- Ajoutez au pipeline une étape permettant de construire automatiquement l'application Next.js.
+![](captures/act2.16.PNG)
+![](captures/act2.17.PNG)
+![](captures/act2.18.PNG)
+![](captures/act2.19.PNG)
+![](captures/act2.20.PNG)
